@@ -1,0 +1,16 @@
+.animated-text {
+  animation: colorChange 5s infinite alternate;
+  color: rgb(0, 0, 0); /* Starting color (black) */
+}
+
+@keyframes colorChange {
+  0% {
+    color: rgb(0, 0, 255); /* From blue */
+  }
+  50% {
+    color: rgb(255, 0, 0); /* To red via yellow */
+  }
+  100% {
+    color: rgb(0, 255, 0); /* To green */
+  }
+}
